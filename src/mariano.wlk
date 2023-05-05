@@ -1,7 +1,7 @@
 import golosinas.*
 
 object mariano {
-	const golosinas = [oblea, bombon, alfajor, chupetin, bombon, bombon]
+	const golosinas = [bombon, alfajor, chupetin, bombon, bombon]
 	
 	
 	method comprar(unaGolosina) = golosinas.add(unaGolosina) 
@@ -30,9 +30,6 @@ object mariano {
 	
 	method golosinasFaltantes(golosinasDeseadas) = golosinasDeseadas.asSet().difference(golosinas.asSet()).asList()
 		
-	
-	method gustosFaltantes(gustosDeseados) {
-		
-	}
+	method gustosFaltantes(gustosDeseados) = gustosDeseados.asSet().difference(self.sabores()).asList()
 }
 

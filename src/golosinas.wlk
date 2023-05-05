@@ -60,7 +60,7 @@ object chocolatin {
 		pesoInicial = unPeso
 		pesoActual = pesoInicial
 	}
-	method sabor() = "vainilla"
+	method sabor() = "chocolate"
 	method esLibreDeGluten() = false
 	method precio() = pesoInicial*0.5
 	method recibirMordisco() {

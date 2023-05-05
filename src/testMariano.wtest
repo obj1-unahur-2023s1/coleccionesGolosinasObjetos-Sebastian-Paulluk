@@ -1,6 +1,22 @@
+import mariano.*
+import golosina*
 
-test "testX" {
+
+describe "test sobre mariano" {
+	
+	method initialize() {
+		mariano.comprar(chupetin)
+		mariano.comprar(chupetin)
+		mariano.comprar(tuttiFrutti)
+		mariano.comprar(oblea)
+	}
+
+
+
+	test "" {
 
 	assert.that(true)
+
+}
 
 }
